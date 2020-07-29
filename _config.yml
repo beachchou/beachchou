@@ -1,0 +1,26 @@
+title: 丘比奇
+
+destination         : _jekyll/_site
+cache_dir           : _jekyll/.jekyll-cache
+layouts_dir         : _jekyll/_layouts
+includes_dir        : _jekyll/_includes
+sass:
+  sass_dir: _jekyll/_sass
+
+collections:
+  jekyll:
+    output          : true
+    permalink: /:path
+
+defaults:
+  -
+    scope:
+      type: "jekyll"
+    values:
+      layout: "page"
+  -
+    scope:
+      type: "pages"
+    values:
+      layout: "article"
+      permalink: /docs/:basename.html

@@ -1,0 +1,33 @@
+body{
+    background-color: #e3e3e3;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+nav{
+    a{
+        color: #000000;
+        text-decoration: none;
+    }
+
+    &.main{
+        background-color: #ffffff;
+    }
+}
+
+.article-list{
+    list-style: none;
+    padding-left: 0;
+    li{
+        background-color: #e3e3e3;
+        margin-bottom: .5rem;
+        padding: .5rem;
+        border-radius: .5rem;
+    }
+    a{
+        color: #000000;
+        text-decoration: none;
+    }
+}

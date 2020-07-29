@@ -1,0 +1,51 @@
+---
+title: C 关键字
+---
+* **C90**
+* _C99_
+* _**C11**_
+
+* auto
+* break
+* case
+* char
+* **const**
+* continue
+* default
+* do
+* double
+* else
+* **enum**
+* extern
+* float
+* for
+* goto
+* if
+* _inline_
+* int
+* long
+* register
+* restrict
+* return
+* short
+* **signed**
+* sizeof
+* static
+* struct
+* switch
+* typedef
+* union
+* unsigned
+* **void**
+* **volatile**
+* while
+* _**_Alignas**_
+* _**_Alignof**_
+* _**_Atomic**_
+* _**_Bool**_
+* _**_Complex**_
+* _**_Generic**_
+* _**_Imaginary**_
+* _**_Noreturn**_??
+* _**_Static_assert**_
+* _**_Thread_local**_

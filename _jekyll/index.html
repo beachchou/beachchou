@@ -1,0 +1,13 @@
+---
+---
+<ul class="article-list">
+    {%for item in site.pages%}
+    {%unless item.show == false %}
+    <a href="{{item.url}}">
+    <li>
+        {{item.title|default:item.name}}
+    </li>
+    </a>
+    {%endunless%}
+    {%endfor%}
+</ul>

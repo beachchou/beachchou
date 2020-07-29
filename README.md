@@ -1,3 +1,6 @@
+---
+show: false
+---
 ### Hi there 👋
 
 <!--
