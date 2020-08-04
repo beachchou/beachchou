@@ -1,6 +1,5 @@
 # vars
 title: 丘比奇
-pages_collection_name: jekyll
 
 
 destination         : _jekyll/_site
@@ -14,6 +13,8 @@ collections:
   jekyll:
     output          : true
     permalink: /:path
+
+host: 0.0.0.0
 
 defaults:
   -

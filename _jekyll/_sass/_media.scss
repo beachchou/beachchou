@@ -1,29 +1,14 @@
-// ****************************************
-// @mixin main_and_nav_layout($min-width,$padding){
-//     @media screen and (min-width: $min-width){
-//         main{
-//             width: calc(#{$min-width} - 8rem - #{4 * $padding});
-//             padding: $padding;
-//             margin-left: calc(50vw - calc(#{$min-width/2} - 4rem - #{2 * $padding}));
-//         }
-    
-//         nav.main{
-//             width: 4rem;
-//             padding: .5rem;
-//             border-radius: .5rem;
-//             position: fixed;
-//             left: calc(50vw + calc(#{$min-width/2} - 4rem - #{$padding}));
-//             bottom: 2rem;
-//         }
-//     }
-// }
+@mixin main_tag($min-width,$max-width,$width){
+    @media screen and (min-width: $min-width) and (max-width: $max-width){
+        main{
+            width: $width;
+            margin: .5rem calc(50vw - #{$width/2});
+        }
+    }
+}
 
-// @include main_and_nav_layout(32rem,1rem);
-// @include main_and_nav_layout(40rem,1rem);
-// @include main_and_nav_layout(48rem,1rem);
-// @include main_and_nav_layout(56rem,1rem);
-// @include main_and_nav_layout(64rem,1rem);
-// @include main_and_nav_layout(72rem,1rem);
-// @include main_and_nav_layout(80rem,1rem);
-// @include main_and_nav_layout(88rem,1rem);
-// @include main_and_nav_layout(96rem,1rem);
+@include main_tag(0,20rem,100vw);
+@include main_tag(20rem,48rem,#{calc(100vw - 1rem)});
+@include main_tag(48rem,64rem,47rem);
+@include main_tag(64rem,90rem,60rem);
+@include main_tag(90rem,1000rem,60rem);
