@@ -28,3 +28,13 @@ defaults:
     values:
       layout: "article"
       permalink: /docs/:basename.html
+  -
+    scope:
+      path: "assets/css/style.scss"
+    values:
+      show: false
+  -
+    scope:
+      path: "README.md"
+    values:
+      show: false

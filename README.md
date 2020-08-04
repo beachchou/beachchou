@@ -1,5 +1,4 @@
 ---
-show: false
 ---
 ### Hi there 👋
 
