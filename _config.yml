@@ -1,4 +1,7 @@
+# vars
 title: 丘比奇
+pages_collection_name: jekyll
+
 
 destination         : _jekyll/_site
 cache_dir           : _jekyll/.jekyll-cache

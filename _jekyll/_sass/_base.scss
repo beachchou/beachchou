@@ -1,32 +1,60 @@
-*{
-    box-sizing: border-box;    
-}
-
 html,body{
     margin: 0;
     padding: 0;
 }
 
-ul,ol{
-    margin-left: 1rem;
-}
-
-pre.highlight{
-    white-space: pre-line;
-    background-color: #e3e3e3;
-    padding: .5rem;
-    border-radius: .5rem;
-}
-
 body{
-    font-family: "songti","PingFang SC", -apple-system, "SF UI Text",  "Lucida Grande", STheiti, "Microsoft YaHei", sans-serif;
+    background-color: #e3e3e3;
 }
 
-article{
-    img{
-        max-width: 100%;
-    }
-    a{
-        text-decoration: none;
-    }
+nav{
+    padding: $padding-base;
+    background-color: #ffffff;
+    margin-bottom: $padding-base/4;
 }
+
+main{
+    padding: $padding-base;
+    background-color: #ffffff;
+}
+
+ul,ol{
+    padding-left: $padding-base;
+}
+
+a{
+    text-decoration: none;
+}
+// ***************************************
+// *{
+//     box-sizing: border-box;    
+// }
+
+// html,body{
+//     margin: 0;
+//     padding: 0;
+// }
+
+// ul,ol{
+//     margin-left: 1rem;
+// }
+
+// pre.highlight{
+//     white-space: pre-line;
+//     background-color: #e3e3e3;
+//     padding: .5rem;
+//     border-radius: .5rem;
+// }
+
+// body{
+//     font-family: "songti","PingFang SC", -apple-system, "SF UI Text",  "Lucida Grande", STheiti, "Microsoft YaHei", sans-serif;
+// }
+
+// article{
+//     img{
+//         max-width: 100%;
+//     }
+//     a{
+//         text-decoration: none;
+//     }
+// }
